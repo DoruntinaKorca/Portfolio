@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Portfolio</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <ul>
+            <li>
+             <a  asp-area="" asp-page="/Index">Home</a>
+            </li>
+                 <li>
+             <a  asp-area="" asp-page="/Index">About</a>
+            </li>
+            <li>
+             <a  asp-area="" asp-page="/Index">Projects</a>
+            </li>
+             <li >
+                <a  asp-area="" asp-page="/Privacy">Contact</a>
+             </li>
+
+        </ul>
+    </header>
+
+    <div class="container">
+        <main role="main" >
+            @RenderBody()
+        </main>
+    </div>
+
+
+</body>
+</html>
