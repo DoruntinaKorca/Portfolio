@@ -3,6 +3,8 @@
 html {
     position: relative;
     min-height: 100%;
+    background-color: #f5f3f4;
+}
 }
 
 body {
@@ -15,8 +17,7 @@ body {
 header {
     width: 100%;
     height: 70px;
-    border: 1px solid red;
-    background-color: #2c6e49;
+    border: 1px solid #f5f3f4;
 }
 
     header ul {
@@ -27,47 +28,176 @@ header {
         height: 50px;
         align-items: center;
         position:relative;
-        margin-right:25px;
+        margin-right:auto;
         margin-left:auto;
     }
-    header ul li a{
-        text-decoration: none;
-        color:black;
-        font-size:larger;
-        padding:2px;
-    }
- header ul li a:hover {
-    cursor: pointer;
-    color: lightgray;
-    font: bold;
-}
+        header ul li a {
+            text-decoration: none;
+            color: #403d39;
+            font-weight:bold;
+            font-size: larger;
+            padding: 2px;
+        }
+            header ul li a:hover {
+                cursor: pointer;
+                color: #e5383b;
+                font: bold;
+            }
     header ul li{
        list-style: none;
     }
 
-.container{
-    border: 1px solid black;
-    min-height:100%;
+.container {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f3f4;
+    background-image: url(../Images/vd.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+}
+
+.boxx {
+    -webkit-box-shadow: 21px 14px 80px -1px rgba(0,0,0,0.17);
+    -moz-box-shadow: 21px 14px 80px -1px rgba(0,0,0,0.17);
+    box-shadow: 21px 14px 80px -1px rgba(0,0,0,0.17);
+}
+.middle{
+
+    width: 900px;
+    height: 450px;
+    margin-top: 20px;
+    margin-bottom:60px;
+    display: flex;
+    flex-direction: row;
+}
+.middle2 {
+    -webkit-box-shadow: 21px 14px 80px -1px rgba(0,0,0,0.17);
+    -moz-box-shadow: 21px 14px 80px -1px rgba(0,0,0,0.17);
+    box-shadow: 21px 14px 80px -1px rgba(0,0,0,0.17);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:100px 0 100px 0;
+    justify-content: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    .middle2 h3 {
+        width: 600px;
+      
+    }
+
+.sqr{
+    width:450px;
+    height:100%;
     display:flex;
     align-items:center;
     justify-content:center;
+}
+    .sqr h2 {
+        color: #132A13;
+    }
+    .sqr span {
+        color: #ba181b;
+    }
+.imgg{
+    width:300px;
+    height:300px;
+}
+    .imgg img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 1px solid #d3d3d3;
+        -webkit-box-shadow: 21px 14px 80px -1px rgba(0,0,0,0.17);
+        -moz-box-shadow: 21px 14px 80px -1px rgba(0,0,0,0.17);
+        box-shadow: 21px 14px 80px -1px rgba(0,0,0,0.17);
+    }
 
+.middle3 {
+    display: flex;
+    height:800px;
+    align-items: center;
+    flex-direction: column;
 }
 
-#centerCont{
-    border: 2px solid blue;
-    width:550px;
-    height:100px;
+.proj{
+ margin-bottom:50px; 
 }
+.projproj {
 
-
-
-
-
-.footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    white-space: nowrap;
-    line-height: 60px; /* Vertically center the text there */
+    justify-content:space-between;
+    display:flex;
+    flex-direction:row;
+    height:100%;
+    flex-wrap:wrap;
+    
+
 }
+.projektet {
+    width: 250px;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 2%;
+    display:flex;
+    flex-direction:column;
+    height: 300px;
+    margin-bottom: 2px;
+    border: 1px solid #d3d3d3;
+}
+.projektet a{
+    border:1px solid red;
+    height:40px;
+    width:100%;
+}
+    .projektet label {
+        margin-top:10px;
+        border: 1px solid green;
+        width: 100%;
+        height:200px;
+
+    }
+
+.middle4 {
+    height: 160px;
+    flex-direction:column;
+    align-items:center;
+}
+.middle4 h2{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+.cont{
+    width:100%;
+    height:90px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+.squares{
+    width:60px;
+    height:60px;
+    margin:0 15px 0 15px;
+}
+    .squares img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+    }
+
+
+
+
+
+
+
+
